@@ -1,0 +1,76 @@
+
+@media (min-width:1280px){
+    main{
+        border: solid green;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #eef5ff;
+
+    }
+    .container {
+        height: auto;
+        display: flex;
+        padding: 20px;
+        border-radius: 14px;
+        gap: 50px;
+        background-color: #fff;
+    }
+
+    .footer{
+        display: none;
+    }
+    .container-steps{
+        display: none;
+    }
+    .container-info{
+        display: block;
+        position: static;
+    }
+    
+    .container-menu-desktop{
+        display: flex;
+        flex-direction: column;
+        background: url(./assets/images/bg-sidebar-desktop.svg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 14px;
+        color: white;
+        background-position: center;
+        gap: 35px;
+        padding: 40px;
+        width: 30PX;
+
+    }
+
+    .container-menu-desktop > div{
+        display: flex;
+        gap:10px;
+        align-items: center;
+    }
+
+    .step-title{
+        font-size: 10px;
+        font-weight: 200;
+        display: block;
+    }
+    .step-info{
+        font-size: 10px;
+        font-weight:bold ;
+        display: block;
+    }
+    .container-next-button-desktop {
+        position: relative;
+        display: block !important;
+    }
+    
+    .container-next-button-desktop > button {
+        width: 100px;
+        position: absolute;
+        right: 0;
+    }
+
+
+
+}
