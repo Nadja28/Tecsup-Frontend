@@ -1,0 +1,186 @@
+
+/* sm */
+/* @media (min-width:640px) { */
+    /* h1 {
+        color: red;
+    }
+    main{
+        background: url('../semana-3/img/destokp/image-header.jpg');
+    }
+    .btn-menu{
+        display: none;
+    }
+
+} */
+/* md */
+/* @media (min-width:768px){ */
+    /* h1 {
+        color: green;
+    }
+    
+} */
+/* lg */
+/* @media (min-width:1024px){ */
+    /* h1 {
+        color: black;
+    }
+} */
+/* xl */
+@media (min-width:1280px){
+
+    main{
+        background: url('../Ejercicio-1/img/destokp/image-header.jpg');
+        /* background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; */
+    }
+    .btn-menu{
+      display: none;
+    
+    }
+
+    .menu{
+        display: flex;
+        gap: 25px;
+        list-style: none;
+        align-items: center;
+        font-family: 'Barlow',sans-serif;
+        
+    }
+    .menu >li> a{
+        text-decoration: none;
+        color:white
+    
+    }
+    .menu >li:last-child{
+        background-color: white;
+        padding: 10px 20px;
+        border-radius: 24px;
+    }
+    
+    .menu >li:last-child > a{
+        color: #000;
+        font-family: 'Fraunces',sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+
+    .section-egg{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 70vh;
+
+    }
+    .bg-egg{
+        flex: 1;
+        background: url('../Ejercicio-1/img/destokp/image-transform.jpg');
+        /* background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover ; */
+        height: 100% !important;
+    }
+    .container-egg{
+        flex:1 ;
+        padding: 0;
+        height: 100%;
+    }
+
+    .container-egg >div {
+        display: block;
+        margin: auto;
+    }
+    .container-egg >div > *{
+        text-align: left;
+    }
+
+/* asasas */
+    .section-vas{
+        display: flex;
+        height: 70vh;
+
+    }
+    .bg-vas{
+        flex: 1;
+        background: url('../Ejercicio-1/img/destokp/image-stand-out.jpg');
+        height: 100% !important;
+        /* background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover ; */
+
+    }
+    .container-vas{
+        flex:1 ;
+        padding: 0;
+        height: 100%;
+    }
+
+    .container-vas >div {
+        display: block;
+        margin: auto;
+    }
+    .container-vas >div > *{
+        text-align: left;
+    }
+
+    .container-fruits{
+        display: flex;
+        
+    }
+    .container-fruits > section > div {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .bg-cherry {
+        flex: 1;
+        background: url("../Ejercicio-1/img/destokp/image-graphic-design.jpg");
+    }
+
+    
+    .bg-orange {
+        flex: 1;
+        background: url("../Ejercicio-1/img/destokp/image-photography.jpg");
+    }
+
+   
+    .section-testimonials {
+        height: 80vh;
+    }
+    
+    .container-testimonials {
+        flex-direction: row;
+    }
+    
+    .section-mini > div {
+        height: 600px;
+        width: 25%;
+    }
+
+    .bg-mini-milk{
+        background: url("../Ejercicio-1/img/destokp/image-gallery-milkbottles.jpg");
+    }
+    
+    
+    .bg-mini-orange{
+        background: url("../Ejercicio-1/img/destokp/image-gallery-orange.jpg");
+        
+    }
+    
+    
+    .bg-mini-cone{
+        background: url("../Ejercicio-1/img/destokp/image-gallery-cone.jpg");
+    }
+    
+    
+    .bg-mini-sugar{
+        background: url("../Ejercicio-1/img/destokp/image-gallery-sugarcubes.jpg");
+    }
+}
+/* 2xl */
+/* @media (min-width:1536px){
+    
+} */

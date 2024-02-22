@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+main{
+    height: 100vh;
+    background-color: #FF585F;
+    border-bottom-left-radius: 100px;
+}
+
+.container-img{
+    background: url("./img/mobile/bg-pattern-intro-mobile.svg");
+    height:100%;
+    background-position:center ;
+ } 
+
+ .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+
+.btn-menu {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    
+}
+.menu{
+    display: none;
+}
+
+.container-img > div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap:50px;
+    border: solid green;
+
+}
+
+.descrip-1{
+    display: flex;
+    height: 35vh;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 100px;
+    border: solid gold;
+    text-align: center;    
+}
+
+.descrip-1 > h2{
+    display: flex;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    border: solid blueviolet;
+}
+
+.descrip-1 >p{
+    margin-top: 10px;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    /* font-weight: 200; */
+    line-height: 5px;
+}
+
+.button-start{
+    display: flex;
+    border: solid brown;
+    justify-content: space-around;
+    height: 10vh;
+}
+
+.button1{
+    height: 55px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: white;
+    color:  #FF585F;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+
+.button2{
+    height: 55px;
+    width: 150px;
+    border-radius: 20px;
+    background-color:transparent;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border:solid white;
+}
+
+
+

@@ -1,0 +1,269 @@
+
+
+
+.nav{
+    background-color:rgb(62,190,255) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.btn-menu{
+    background-color: transparent;
+    border: none;
+    cursor:pointer;
+
+}
+
+.menu{
+    display: none;
+}
+
+.text-xl {
+    font-size: 38px !important;
+  }
+  
+main{
+    background: url('..//Ejercicio-1/img/movile/image-header.jpg');
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+     height: 70vh;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding-top: 35px;
+}
+
+.arrow{
+    display: block;
+    margin: auto;
+    height: 160px;
+    margin-top: 35px;
+
+}
+
+.bg-egg{
+    /* flex: 1; */
+    background: url('../Ejercicio-1/img/movile/image-transform.jpg');
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    /* height: 100% !important;  */
+
+}
+
+.container-egg{
+    /* height: 50vh; */
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+
+}
+
+.container-egg > div > h2{
+    /* font-size: 38px; */
+    margin-bottom: 15px;
+}
+
+.container-egg > div > p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: hsl(232,10%,55%);
+}
+
+.link {
+    text-transform: uppercase;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+.bg-vas{
+    background: url('../Ejercicio-1/img/movile/image-stand-out.jpg');
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    height: 50vh;
+
+}
+
+/* .container-vas{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+
+}
+
+.container-vas > div > h2{
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.container-vas > div > p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: hsl(235, 6%, 64%);
+} */
+
+.link {
+    text-transform: uppercase;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+.bg-cherry{
+    background: url("../Ejercicio-1/img/movile/image-graphic-design.jpg");
+    height: 80vh;
+    /* display: flex; */
+    align-items: end;
+}
+
+.bg-cherry > div{
+    margin-bottom: 80px;
+    color: hsl(167,40%,24%);
+}
+
+.bg-cherry > div > h2{
+    margin-bottom: 20px;
+}
+
+
+.bg-orange {
+    background: url("../Ejercicio-1/img/movile/image-photography.jpg");
+    height: 80vh;
+    /* display: flex; */
+    align-items: end;
+}
+
+.bg-orange > div {
+    margin-bottom: 80px;
+    color: hsl(198,62%,26%);
+}
+
+.bg-orange > div > h2 {
+    margin-bottom: 20px;
+}
+
+.section-testimonials{
+    margin-top: 80px;
+    background-color: #fffbf8;
+}
+
+
+.section-testimonials > h2{
+    font-size: 26px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+}
+
+.sections-testimonials{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-testimonials > div > img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.text-testimonial {
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+}
+  
+.text-name-testimonial {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    color: black;
+}
+  
+.container-testimonials > div > p {
+    margin-top: 20px;
+    color: hsl(232, 10%,55%);
+}
+
+
+.section-mini{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-mini > div {
+    height: 300px;
+    width: 50%;
+}
+
+.bg-mini-milk{
+    background: url("../Ejercicio-1/img/movile/image-gallery-milkbottles.jpg");
+}
+
+
+.bg-mini-orange{
+    background: url("../Ejercicio-1/img/movile/image-gallery-orange.jpg");
+
+}
+
+
+.bg-mini-cone{
+    background: url("../Ejercicio-1/img/movile/image-gallery-cone.jpg");
+}
+
+
+.bg-mini-sugar{
+    background: url("../Ejercicio-1/img/movile/image-gallery-sugar-cubes.jpg");
+}
+
+
+.footer {
+    background-color: #90d4c5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer-logo{
+    width: 200px;
+    filter: invert(39%) sepia(6%) saturate(3640%) hue-rotate(116deg)
+    brightness(45%) contrast(86%);
+
+}
+
+.footer-menu{
+    list-style:none ;
+    gap: 20px;
+}
+
+.footer-menu > li > a{
+    color: #2c7564;
+}
+
+.footer-social-media{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
