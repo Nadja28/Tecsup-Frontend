@@ -6,23 +6,37 @@
 
 main{
     height: 100vh;
-    background-color: #FF585F;
-    border-bottom-left-radius: 100px;
+    /* width: 20vh; */
+    border: solid black;    
 }
 
-.container-img{
-    background: url("./img/mobile/bg-pattern-intro-mobile.svg");
-    height:100%;
-    background-position:center ;
- } 
+.sec-1{
+    height: 100%;
+    display: flex;
+    position: relative;
+    background-color: #d8ff58;
+    border-bottom-left-radius: 120px;
+    border: solid blue;
+    
 
- .nav{
+}
+.container-img{
+    height:100% ;
+    background: url("./img/mobile/bg-pattern-intro-mobile.svg");
+    border: solid green;
+    background-position: center left -300px ;
+    position: absolute;
+    border-bottom-left-radius: 120px;
+ }  
+
+.nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 5vh;
     padding: 20px;
     padding-top: 40px;
+
 }
 
 
@@ -42,7 +56,6 @@ main{
     flex-direction: column;
     padding: 20px;
     gap:50px;
-    border: solid green;
 
 }
 
@@ -53,7 +66,6 @@ main{
     gap: 20px;
     align-items: center;
     margin-top: 100px;
-    border: solid gold;
     text-align: center;    
 }
 
@@ -62,7 +74,6 @@ main{
     color: white;
     font-size: 40px;
     font-weight: 400;
-    border: solid blueviolet;
 }
 
 .descrip-1 >p{
@@ -70,13 +81,11 @@ main{
     display: flex;
     color: white;
     font-size: 20px;
-    /* font-weight: 200; */
     line-height: 5px;
 }
 
 .button-start{
     display: flex;
-    border: solid brown;
     justify-content: space-around;
     height: 10vh;
 }
